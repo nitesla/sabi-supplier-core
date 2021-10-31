@@ -1,4 +1,4 @@
-package com.sabisupplierscore.dto.request;
+package com.sabi.suppliers.core.dto.request;
 
 
 import lombok.Data;
