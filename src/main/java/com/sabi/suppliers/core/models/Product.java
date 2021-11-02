@@ -10,9 +10,10 @@ import javax.persistence.Entity;
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class SupplierCategory extends CoreEntity {
+public class Product extends CoreEntity {
 
     @Column(nullable = false)
     private String name;
-    private int creditPeriod;
+    private Long manufacturerId;
+    private Long productCategoryId;
 }

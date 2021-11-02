@@ -13,11 +13,10 @@ import java.time.LocalDateTime;
 @Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SupplierCategoryResponseDto {
+public class ProductCategoryResponseDto {
 
     private Long id;
     private String name;
-    private int creditPeriod;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
