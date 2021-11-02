@@ -1,4 +1,4 @@
-package com.sabisupplierscore.dto.response;
+package com.sabi.suppliers.core.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

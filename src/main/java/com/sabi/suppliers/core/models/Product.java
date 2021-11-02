@@ -1,4 +1,4 @@
-package com.sabisupplierscore.models;
+package com.sabi.suppliers.core.models;
 
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
