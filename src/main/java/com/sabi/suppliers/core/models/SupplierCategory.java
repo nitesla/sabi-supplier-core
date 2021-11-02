@@ -1,15 +1,19 @@
-package com.sabisupplierscore.models;
+package com.sabi.suppliers.core.models;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-@EqualsAndHashCode(callSuper=false)
+@EqualsAndHashCode(callSuper = true)
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Entity
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class SupplierCategory extends CoreEntity {
 
     @Column(nullable = false)
