@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 /**
  *
@@ -32,6 +31,5 @@ public class SupplierCategoryRequestDto {
     private Integer creditPeriod;
 
     @NotNull(message = "isActive can not be empty")
-    @Pattern(regexp = "^true$|^false$", message = "Allowed input: true or false")
     private Boolean isActive;
 }

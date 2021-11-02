@@ -42,7 +42,6 @@ public class SupplierRequestDto {
     private String website;
 
     @NotNull(message = "isActive can not be empty")
-    @Pattern(regexp = "^true$|^false$", message = "Allowed input: true or false")
     private Boolean isActive;
 
     @NotNull(message = "Supplier Category ID can not be empty")
