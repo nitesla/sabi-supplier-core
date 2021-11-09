@@ -16,8 +16,4 @@ public class SupplierProduct extends CoreEntity {
 
     private Long supplierId;
     private  Long productId;
-    private LocalDateTime createdDate;
-    private LocalDateTime updatedDate;
-    private Long createdBy;
-    private Long updatedBy;
 }

@@ -16,8 +16,4 @@ public class SupplierGood extends CoreEntity {
     private Long supplierProductId;
     private Long variantId;
     private double price;
-    private LocalDateTime createdDate;
-    private LocalDateTime updatedDate;
-    private Long createdBy;
-    private Long updatedBy;
 }

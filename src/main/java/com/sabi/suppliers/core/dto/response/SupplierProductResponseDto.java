@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 public class SupplierProductResponseDto {
 
     private Long id;
-    private Long supplierID;
-    private  Long productID;
+    private Long supplierId;
+    private  Long productId;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
 
