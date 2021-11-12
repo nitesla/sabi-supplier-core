@@ -14,6 +14,8 @@ public class StateResponseDto {
 
     private String name;
 
+    private Long countryId;
+
     private LocalDateTime createdDate;
 
     private LocalDateTime updatedDate;
