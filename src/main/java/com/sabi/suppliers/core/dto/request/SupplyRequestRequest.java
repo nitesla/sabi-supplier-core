@@ -20,6 +20,7 @@ public class SupplyRequestRequest {
 
     private Long id;
     @NotNull(message = "Product ID is required")
+    @Min(value = 1L, message = "Product Id can not be less than 1")
     private Long productId;
     @NotBlank(message = "Product name is required")
     private String productName;

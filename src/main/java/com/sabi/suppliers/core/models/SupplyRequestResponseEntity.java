@@ -4,17 +4,17 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
-import java.time.LocalDateTime;
-
 
 @EqualsAndHashCode(callSuper = true)
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Builder
 @Entity
-public class WareHouse extends CoreEntity {
+public class SupplyRequestResponseEntity extends CoreEntity {
+
     private Long id;
+    private String status;
     private Long userId;
-    private Long wareHouseId;
+    private Long supplyRequestId;
 }
