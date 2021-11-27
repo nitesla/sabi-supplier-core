@@ -1,4 +1,4 @@
-package com.sabisupplierscore.dto.request;
+package com.sabi.suppliers.core.dto.request;
 
 
 import lombok.Data;
@@ -14,4 +14,6 @@ public class StateDto {
     private Long id;
 
     private String name;
+
+    private Long countryId;
 }

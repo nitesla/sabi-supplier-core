@@ -1,4 +1,4 @@
-package com.sabisupplierscore;
+package com.sabi.suppliers.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,5 +1,4 @@
-package com.sabisupplierscore.models;
-
+package com.sabi.suppliers.core.models;
 
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
@@ -10,8 +9,10 @@ import javax.persistence.Entity;
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class Country extends CoreEntity {
+public class Product extends CoreEntity {
+
 
     private String name;
-    private String code;
+    private Long manufacturerId;
+    private Long productCategoryId;
 }

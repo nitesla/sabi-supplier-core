@@ -1,4 +1,4 @@
-package com.sabisupplierscore.dto.response;
+package com.sabi.suppliers.core.dto.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -13,6 +13,8 @@ public class StateResponseDto {
     private Long id;
 
     private String name;
+
+    private Long countryId;
 
     private LocalDateTime createdDate;
 
