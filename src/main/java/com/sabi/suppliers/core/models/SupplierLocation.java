@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 
 /**
@@ -23,7 +22,7 @@ import javax.persistence.Entity;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SupplierLocation extends CoreEntity {
 
-    @Column(nullable = false)
+
     private Long supplierID;
 
     private Long stateID;
