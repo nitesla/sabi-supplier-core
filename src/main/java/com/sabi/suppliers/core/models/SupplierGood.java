@@ -2,10 +2,10 @@ package com.sabi.suppliers.core.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
-import java.time.LocalDateTime;
 
 @EqualsAndHashCode(callSuper=false)
 @Data

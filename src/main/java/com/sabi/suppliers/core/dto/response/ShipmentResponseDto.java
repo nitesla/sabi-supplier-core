@@ -2,7 +2,6 @@ package com.sabi.suppliers.core.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-import net.sourceforge.jtds.jdbc.DateTime;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

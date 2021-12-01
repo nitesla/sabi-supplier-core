@@ -1,7 +1,6 @@
 package com.sabi.suppliers.core.models;
 
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
@@ -19,13 +18,12 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 @Builder
 @Entity
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class SupplierLocation extends CoreEntity {
 
 
-    private Long supplierID;
-
-    private Long stateID;
+    private Long supplierId;
+    private Long stateId;
+    private int warehouse;
 
 
 }

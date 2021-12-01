@@ -1,13 +1,11 @@
 package com.sabi.suppliers.core.dto.request;
 
 import lombok.Data;
-import net.sourceforge.jtds.jdbc.DateTime;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
-
 public class ShipmentDto {
 
     private Long id;

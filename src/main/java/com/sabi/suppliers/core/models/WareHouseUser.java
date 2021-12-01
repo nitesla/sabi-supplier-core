@@ -1,23 +1,19 @@
 package com.sabi.suppliers.core.models;
 
-
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import java.time.LocalDateTime;
 
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Entity
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class SupplierUser extends CoreEntity {
-
-    private Long supplierId;
+public class WareHouseUser extends CoreEntity {
     private Long userId;
-
+    private Long wareHouseId;
 }
