@@ -15,7 +15,6 @@ import java.util.Date;
 @Data
 @Entity
 public class SupplyRequest extends CoreEntity {
-    private Long id;
     private Long productId;
     private String productName;
     private Long askingQuantity;
@@ -24,4 +23,11 @@ public class SupplyRequest extends CoreEntity {
     private Date endTime;
     private String  referenceNo;
     private String status;
+    private Long quantity;
+    private BigDecimal price;
+    private Long warehouseId;
+    private String dropOffAddress;
+    private Date dateAccepted;
+    private Long askedQuantity;
+    private Long askedPrice;
 }

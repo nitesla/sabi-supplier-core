@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Min;
@@ -30,10 +31,26 @@ public class SupplyRequestRequest {
     @NotNull(message = "Asking price can not be null")
     @DecimalMin(value = "0.0", message = "Asking price can not be less than 0")
     private BigDecimal askingPrice;
+    @DateTimeFormat( pattern="yyyy-MM-dd")
     private Date startTime;
+    @DateTimeFormat( pattern="yyyy-MM-dd")
     private Date endTime;
     @NotBlank(message = "Reference Number is required")
     private String  referenceNo;
     @NotBlank(message = "Status is required ")
     private String status;
+    @NotNull(message = "Quantity is required")
+    private Long quantity;
+    @NotNull(message = "Price  is required")
+    private BigDecimal price;
+    @NotNull(message = "Warehouse Id is required")
+    private Long warehouseId;
+    @NotBlank(message = "Drop off address is required")
+    private String dropOffAddress;
+    @NotNull(message = "Date Accepted is required")
+    private Date dateAccepted;
+    @NotNull(message = "Asked quantity is required")
+    private Long askedQuantity;
+    @NotNull(message = "Asked price can not be null")
+    private Long askedPrice;
 }

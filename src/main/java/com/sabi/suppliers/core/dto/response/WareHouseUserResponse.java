@@ -1,25 +1,21 @@
 package com.sabi.suppliers.core.dto.response;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.inject.Named;
 import java.time.LocalDateTime;
-import java.util.Date;
 
-
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SupplyRequestResponseResponse {
+@Data
+public class WareHouseUserResponse {
     private Long id;
-    private String status;
     private Long userId;
-    private Long supplyRequestId;
-    private Date responseDate;
+    private Long wareHouseId;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
