@@ -2,7 +2,6 @@ package com.sabi.suppliers.core.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-import net.sourceforge.jtds.jdbc.DateTime;
 
 import java.time.LocalDateTime;
 
@@ -12,7 +11,7 @@ public class ShipmentResponseDto {
 
     private Long id;
     private Long warehouseId;
-    private LocalDateTime DeliveryDate;
+    private LocalDateTime deliveryDate;
     private Long logisticPartnerId;
     private String logisticPartnerName;
     private String phoneNumber;

@@ -3,7 +3,6 @@ package com.sabi.suppliers.core.models;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import net.sourceforge.jtds.jdbc.DateTime;
 
 import javax.persistence.Entity;
 import java.time.LocalDateTime;

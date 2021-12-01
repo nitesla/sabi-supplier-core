@@ -47,5 +47,7 @@ public class Supplier extends CoreEntity {
 
     private double discountProvided;
 
+    private String deliveryType;
+
 
 }

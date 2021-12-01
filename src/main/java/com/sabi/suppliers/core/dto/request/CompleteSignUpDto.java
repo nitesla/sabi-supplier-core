@@ -18,7 +18,16 @@ public class CompleteSignUpDto {
     private String contactPerson;
     private String contactPhone;
     private String contactEmail;
-//    private List<PartnerAssetType> assets;
+    private List<PartnerAssetTypeRequest> assets;
     private List<SupplierLocation> locations;
     private String deliveryType;
+
+
+    private String password;
+    private String firstName;
+    private String lastName;
+    private String userEmail;
+    private String userPhone;
+    private String name;
+
 }

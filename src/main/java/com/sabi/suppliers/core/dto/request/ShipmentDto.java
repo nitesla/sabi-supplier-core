@@ -1,17 +1,15 @@
 package com.sabi.suppliers.core.dto.request;
 
 import lombok.Data;
-import net.sourceforge.jtds.jdbc.DateTime;
 
 import java.time.LocalDateTime;
 
 @Data
-
 public class ShipmentDto {
 
     private Long id;
     private Long warehouseId;
-    private LocalDateTime DeliveryDate;
+    private LocalDateTime deliveryDate;
     private Long logisticPartnerId;
     private String logisticPartnerName;
     private String phoneNumber;
