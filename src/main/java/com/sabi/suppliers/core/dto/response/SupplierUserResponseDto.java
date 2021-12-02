@@ -16,9 +16,12 @@ import java.time.LocalDateTime;
 public class SupplierUserResponseDto {
 
     private Long id;
-    private Long userId;
-    private Long wareHouseId;
-    private Long roleId;
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String email;
+    private String phone;
+    private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;

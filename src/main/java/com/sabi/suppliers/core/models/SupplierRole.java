@@ -1,20 +1,26 @@
 package com.sabi.suppliers.core.models;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sabi.framework.models.CoreEntity;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-@EqualsAndHashCode(callSuper=false)
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Data
 @Entity
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class SupplierRole extends CoreEntity {
+public class SupplierRole {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    private Long partnerId;
+    private Long supplierId;
     private Long roleId;
 }

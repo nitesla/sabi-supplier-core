@@ -6,7 +6,11 @@ import lombok.Data;
 public class SupplierUserDto {
 
     private Long id;
-    private Long userId;
-    private Long wareHouseId;
     private Long roleId;
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String email;
+    private String phone;
+//    private String userType;
 }

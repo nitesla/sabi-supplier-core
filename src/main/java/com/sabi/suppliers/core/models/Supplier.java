@@ -6,6 +6,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 /**
  *
@@ -48,6 +49,10 @@ public class Supplier extends CoreEntity {
     private double discountProvided;
 
     private String deliveryType;
+
+    @Transient
+    private String lga;
+
 
 
 }
