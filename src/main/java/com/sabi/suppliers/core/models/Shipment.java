@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @EqualsAndHashCode(callSuper=false)
@@ -13,14 +14,14 @@ import java.time.LocalDateTime;
 public class Shipment extends CoreEntity {
 
     private Long warehouseId;
-    private LocalDateTime DeliveryDate;
-    private Long logisticPartnerId;
+    private LocalDateTime deliveryDate;
+    private String logisticPartnerId;
     private String logisticPartnerName;
     private String phoneNumber;
     private String vehicle;
     private String status;
-    private double quantity;
-    private double totalAmount;
+    private Double quantity;
+    private BigDecimal totalAmount;
     private LocalDateTime expectedDeliveryDate;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
