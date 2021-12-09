@@ -5,11 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
@@ -27,12 +22,12 @@ public class WareHouseResponse {
     private String contactEmail;
     private String longitude;
     private String latitude;
-    private Long warehouseUserId;
+//    private Long warehouseUserId;
     private Long userId;
     private Long lgaId;
     private Long productCount;
     private String name;
-    private BigDecimal productCost;
+//    private BigDecimal productCost;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

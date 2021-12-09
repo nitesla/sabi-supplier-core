@@ -4,7 +4,6 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
-import java.math.BigDecimal;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
@@ -22,10 +21,10 @@ public class WareHouse extends CoreEntity {
     private String contactEmail;
     private String longitude;
     private String latitude;
-    private Long warehouseUserId;
+//    private Long warehouseUserId;
     private Long userId;
     private Long lgaId;
     private Long productCount;
     private String name;
-    private BigDecimal productCost;
+//    private BigDecimal productCost;
 }

@@ -5,11 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import java.math.BigDecimal;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -35,8 +33,8 @@ public class WareHouseRequest {
 //    @NotBlank(message = "Contact email is required")
     private String longitude;
     private String latitude;
-    @NotNull(message = "Warehouse user id is required")
-    private Long warehouseUserId;
+//    @NotNull(message = "Warehouse user id is required")
+//    private Long warehouseUserId;
     @NotNull(message = "user id is required")
     private Long userId;
     @NotNull(message = "LGA id is required")
@@ -45,7 +43,7 @@ public class WareHouseRequest {
     private Long productCount;
     @NotBlank(message = "Name is required")
     private String name;
-    @NotNull(message = "Product is required")
-    @DecimalMin(value = "0.0", message = "Product cost can not be  less than 0")
-    private BigDecimal productCost;
+//    @NotNull(message = "Product is required")
+//    @DecimalMin(value = "0.0", message = "Product cost can not be  less than 0")
+//    private BigDecimal productCost;
 }
