@@ -4,6 +4,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
@@ -26,5 +27,8 @@ public class WareHouse extends CoreEntity {
     private Long lgaId;
     private Long productCount;
     private String name;
+
+    @Transient
+    private String stateName;
 //    private BigDecimal productCost;
 }

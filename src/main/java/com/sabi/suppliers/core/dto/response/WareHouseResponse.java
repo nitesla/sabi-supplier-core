@@ -27,7 +27,7 @@ public class WareHouseResponse {
     private Long lgaId;
     private Long productCount;
     private String name;
-//    private BigDecimal productCost;
+    private String stateName;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

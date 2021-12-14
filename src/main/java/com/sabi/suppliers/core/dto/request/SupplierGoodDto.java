@@ -15,4 +15,7 @@ public class SupplierGoodDto {
     private Long supplierProductId;
     private Long variantId;
     private double price;
+    private int totalQuantityAvailable;
+    private int quantitySold;
+    private int quantity;
 }
