@@ -18,4 +18,5 @@ public class SupplyRequestResponseEntity extends CoreEntity {
     private Long userId;
     private Long supplyRequestId;
     private Date responseDate;
+    private String rejectReason;
 }

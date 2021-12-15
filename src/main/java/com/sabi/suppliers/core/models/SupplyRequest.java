@@ -30,4 +30,8 @@ public class SupplyRequest extends CoreEntity {
     private Date dateAccepted;
     private Long askedQuantity;
     private Long askedPrice;
+    private LocalDateTime deliveryDate;
+    private String deliveryAddress;
+    private String email;
+    private String phone;
 }

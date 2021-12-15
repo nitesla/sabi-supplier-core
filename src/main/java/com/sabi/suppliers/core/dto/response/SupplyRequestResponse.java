@@ -5,8 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -38,4 +36,8 @@ public class SupplyRequestResponse {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private LocalDateTime deliveryDate;
+    private String deliveryAddress;
+    private String email;
+    private String phone;
 }

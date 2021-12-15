@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.inject.Named;
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
@@ -21,4 +20,8 @@ public class WareHouseUserResponse {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String email;
+    private String phone;
+    private String wareHouseUserName;
+
 }
