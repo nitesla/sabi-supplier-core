@@ -22,7 +22,6 @@ public class WareHouse extends CoreEntity {
     private String contactEmail;
     private String longitude;
     private String latitude;
-//    private Long warehouseUserId;
     private Long userId;
     private Long lgaId;
     private Long productCount;
@@ -31,4 +30,6 @@ public class WareHouse extends CoreEntity {
     @Transient
     private String stateName;
 //    private BigDecimal productCost;
+    @Transient
+    private Integer wareHouseUserCount;
 }

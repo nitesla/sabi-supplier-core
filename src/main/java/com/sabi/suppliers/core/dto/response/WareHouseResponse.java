@@ -22,7 +22,6 @@ public class WareHouseResponse {
     private String contactEmail;
     private String longitude;
     private String latitude;
-//    private Long warehouseUserId;
     private Long userId;
     private Long lgaId;
     private Long productCount;
@@ -33,4 +32,5 @@ public class WareHouseResponse {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private Integer wareHouseUserCount;
 }
