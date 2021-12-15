@@ -7,11 +7,11 @@ import java.time.LocalDateTime;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class WarehouseGoodsResponseDto {
+public class WarehouseGoodResponseDto {
 
     private Long id;
     private Long warehouseId;
-    private Long supplyGoodId;
+    private Long supplierGoodId;
     private int qtySold;
     private int qtyAvaliable;
     private int qty;
