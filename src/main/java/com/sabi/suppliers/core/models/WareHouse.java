@@ -29,7 +29,8 @@ public class WareHouse extends CoreEntity {
 
     @Transient
     private String stateName;
-//    private BigDecimal productCost;
+    @Transient
+    private String lgaName;
     @Transient
     private Integer wareHouseUserCount;
 }

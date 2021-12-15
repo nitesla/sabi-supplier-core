@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class StockResponseDto {
 
     private Long id;
-    private Long supplierGoodId;
+    private Long wareHouseGoodId;
     private LocalDateTime actionDate;
     private String action;
     private int initialQuantity;

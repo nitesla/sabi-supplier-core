@@ -3,7 +3,7 @@ package com.sabi.suppliers.core.dto.request;
 import lombok.Data;
 
 @Data
-public class WarehouseGoodDto {
+public class WareHouseGoodDto {
 
     private Long id;
     private Long warehouseId;

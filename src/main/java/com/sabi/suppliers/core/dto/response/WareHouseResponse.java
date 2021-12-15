@@ -27,6 +27,7 @@ public class WareHouseResponse {
     private Long productCount;
     private String name;
     private String stateName;
+    private String lgaName;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
