@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Stock extends CoreEntity {
 
-    private Long supplyGoodId;
+    private Long wareHouseGoodId;
     private LocalDateTime actionDate;
     private String action;
     private int initialQuantity;

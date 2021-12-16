@@ -22,15 +22,16 @@ public class WareHouseResponse {
     private String contactEmail;
     private String longitude;
     private String latitude;
-//    private Long warehouseUserId;
     private Long userId;
     private Long lgaId;
     private Long productCount;
     private String name;
     private String stateName;
+    private String lgaName;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private Integer wareHouseUserCount;
 }

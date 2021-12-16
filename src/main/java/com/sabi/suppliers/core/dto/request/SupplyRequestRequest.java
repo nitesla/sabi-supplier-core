@@ -11,6 +11,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @AllArgsConstructor
@@ -53,4 +54,8 @@ public class SupplyRequestRequest {
     private Long askedQuantity;
     @NotNull(message = "Asked price can not be null")
     private Long askedPrice;
+    private LocalDateTime deliveryDate;
+    private String deliveryAddress;
+    private String email;
+    private String phone;
 }

@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 public class StockDto {
 
     private Long id;
-    private Long supplyGoodId;
+    private Long wareHouseGoodId;
     private LocalDateTime actionDate;
     private String action;
     private int initialQuantity;

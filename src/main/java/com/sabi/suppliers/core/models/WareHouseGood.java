@@ -14,10 +14,10 @@ import java.math.BigDecimal;
 @Data
 @Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class WarehouseGoods extends CoreEntity {
+public class WareHouseGood extends CoreEntity {
 
     private Long warehouseId;
-    private Long supplyGoodId;
+    private Long supplierGoodId;
     private int qtySold;
     private int qtyAvaliable;
     private double price;
