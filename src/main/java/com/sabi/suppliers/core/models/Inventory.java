@@ -1,6 +1,5 @@
 package com.sabi.suppliers.core.models;
 
-
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -8,30 +7,23 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Transient;
-
-/**
- *
- * This class is responsible for persisting to the database
- */
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class LGA extends CoreEntity {
+public class Inventory extends CoreEntity {
 
-
+    private Long supplierGoodId;
+    private LocalDateTime deliveryDate;
+    private String deliveryAddress;
     private String name;
-
-    private Long stateId;
+    private Long warehouseId;
+    private String Status;
 
     @Transient
-    private String stateName;
-
-    public LGA(String name,Long stateId) {
-        this.name = name;
-        this.stateId = stateId;
-
-    }
-
+    private String wareHouseAddress;
+    @Transient
+    private String productVariant;
 }

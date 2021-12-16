@@ -25,4 +25,5 @@ public class SupplyRequestResponseRequest {
     private Long supplyRequestId;
     @NotNull(message = "Response Date is required")
     private Date responseDate;
+    private String rejectReason;
 }

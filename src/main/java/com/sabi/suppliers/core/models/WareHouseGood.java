@@ -1,6 +1,5 @@
 package com.sabi.suppliers.core.models;
 
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
@@ -8,34 +7,17 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
-
-/**
- *
- * This class is responsible for persisting to the database
- */
 
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class State extends CoreEntity {
+public class WareHouseGood extends CoreEntity {
 
-
-    private String name;
-    private Long countryId;
-
-    @Transient
-    private String countryName;
-
-    public State(String name,Long countryId) {
-        this.name = name;
-        this.countryId = countryId;
-
-    }
-
-
-
-
+    private Long warehouseId;
+    private Long supplierGoodId;
+    private int qtySold;
+    private int qtyAvaliable;
+    private int qty;
 }

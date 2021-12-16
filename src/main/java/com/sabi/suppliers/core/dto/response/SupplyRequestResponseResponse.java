@@ -25,4 +25,5 @@ public class SupplyRequestResponseResponse {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private String rejectReason;
 }
