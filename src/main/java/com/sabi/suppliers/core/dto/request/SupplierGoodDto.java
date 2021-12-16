@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class SupplierGoodDto {
 
     private Long id;
-    private Long supplierProductId;
+    private Long supplierId;
     private Long variantId;
     private double price;
     private int totalQuantityAvailable;

@@ -43,7 +43,7 @@ public class SupplyRequestRequest {
     private Long quantity;
     @NotNull(message = "Price  is required")
     private BigDecimal price;
-    @NotNull(message = "Warehouse Id is required")
+//    @NotNull(message = "Warehouse Id is required")
     private Long warehouseId;
     @NotBlank(message = "Drop off address is required")
     private String dropOffAddress;

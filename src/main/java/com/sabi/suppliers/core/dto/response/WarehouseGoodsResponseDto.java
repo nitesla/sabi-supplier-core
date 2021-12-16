@@ -14,6 +14,7 @@ public class WarehouseGoodsResponseDto {
     private Long supplyGoodId;
     private int qtySold;
     private int qtyAvaliable;
+    private double price;
     private int qty;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;

@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class SupplierGoodResponseDto {
 
     private Long id;
-    private Long supplierProductId;
+    private Long supplierId;
     private Long variantId;
     private double price;
     private int totalQuantityAvailable;
