@@ -4,7 +4,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
-import java.time.LocalDateTime;
+import javax.persistence.Transient;
 
 
 @EqualsAndHashCode(callSuper = true)
@@ -16,4 +16,11 @@ import java.time.LocalDateTime;
 public class WareHouseUser extends CoreEntity {
     private Long userId;
     private Long wareHouseId;
+
+    @Transient
+    private String email;
+    @Transient
+    private String phone;
+    @Transient
+    private String wareHouseUserName;
 }
