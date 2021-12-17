@@ -34,4 +34,5 @@ public class SupplyRequest extends CoreEntity {
     private String deliveryAddress;
     private String email;
     private String phone;
+    private String rejectReason;
 }

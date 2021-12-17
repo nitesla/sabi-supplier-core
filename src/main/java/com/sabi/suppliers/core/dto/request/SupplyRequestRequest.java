@@ -57,4 +57,5 @@ public class SupplyRequestRequest {
     private String deliveryAddress;
     private String email;
     private String phone;
+    private String rejectReason;
 }
