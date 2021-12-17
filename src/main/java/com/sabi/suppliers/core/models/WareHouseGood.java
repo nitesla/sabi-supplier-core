@@ -7,6 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import java.math.BigDecimal;
 
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
@@ -19,5 +20,6 @@ public class WareHouseGood extends CoreEntity {
     private Long supplierGoodId;
     private int qtySold;
     private int qtyAvaliable;
+    private double price;
     private int qty;
 }

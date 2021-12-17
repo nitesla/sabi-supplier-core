@@ -13,7 +13,7 @@ import javax.persistence.Entity;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SupplierGood extends CoreEntity {
 
-    private Long supplierProductId;
+    private Long supplierId;
     private Long variantId;
     private double price;
     private int totalQuantityAvailable;

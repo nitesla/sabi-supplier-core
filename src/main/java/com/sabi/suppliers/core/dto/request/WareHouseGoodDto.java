@@ -10,5 +10,6 @@ public class WareHouseGoodDto {
     private Long supplierGoodId;
     private int qtySold;
     private int qtyAvaliable;
+    private double price;
     private int qty;
 }
