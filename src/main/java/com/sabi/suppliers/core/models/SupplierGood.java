@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
 @Data
@@ -19,4 +20,6 @@ public class SupplierGood extends CoreEntity {
     private int totalQuantityAvailable;
     private int quantitySold;
     private int quantity;
+    @Transient
+    private String variantName;
 }
