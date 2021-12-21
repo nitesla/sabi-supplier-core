@@ -26,5 +26,6 @@ public class SupplierGoodResponseDto {
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
+    private String variantName;
     private Boolean isActive;
 }
