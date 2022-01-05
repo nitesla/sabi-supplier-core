@@ -27,4 +27,5 @@ public class ShipmentResponseDto {
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
+    private Boolean isActive;
 }

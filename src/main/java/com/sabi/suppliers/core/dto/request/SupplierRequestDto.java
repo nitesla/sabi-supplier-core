@@ -18,28 +18,16 @@ import lombok.NoArgsConstructor;
 public class SupplierRequestDto {
 
     private Long id;
-
     private String name;
-
     private Long stateID;
-
     private String address;
-
     private String phone;
-
     private String email;
-
     private String website;
-
-    private Boolean isActive;
-
+//    private Boolean isActive;
     private Long supplierCategoryID;
-
     private String contactPerson;
-
     private String contactPhone;
-
     private String contactEmail;
-
     private Double discountProvided;
 }

@@ -50,4 +50,6 @@ public class SupplierResponseDto {
     private Long updatedBy;
 
     private Boolean isActive;
+
+    private String deliveryType;
 }
