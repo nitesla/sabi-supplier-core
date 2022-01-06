@@ -21,7 +21,13 @@ public class SupplierResponseDto {
 
     private String name;
 
-    private Long stateID;
+    private Long lgaId;
+
+    private String lga;
+
+    private Long stateId;
+
+    private String state;
 
     private String address;
 

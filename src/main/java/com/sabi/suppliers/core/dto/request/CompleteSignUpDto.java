@@ -12,7 +12,8 @@ public class CompleteSignUpDto {
     private String supplierCategoryId;
     private String address;
     private String email;
-    private String lgaId;
+    private Long lgaId;
+    private Long stateId;
     private String phone;
     private String webSite;
     private String contactPerson;

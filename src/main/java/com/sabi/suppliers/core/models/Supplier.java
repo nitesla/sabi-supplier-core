@@ -3,7 +3,8 @@ package com.sabi.suppliers.core.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sabi.framework.models.CoreEntity;
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
 import javax.persistence.Transient;
@@ -16,42 +17,34 @@ import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
+//@AllArgsConstructor
+//@NoArgsConstructor
+//@Builder
 @Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Supplier extends CoreEntity {
 
 
     private String name;
-
     private Long lgaId;
-
+    private Long stateId;
     private Long userId;
-
     private String address;
-
     private String phone;
-
     private String email;
-
     private String website;
-
     private Long supplierCategoryId;
-
     private String contactPerson;
-
     private String contactPhone;
-
     private String contactEmail;
-
     private double discountProvided;
-
     private String deliveryType;
 
     @Transient
     private String lga;
+
+    @Transient
+    private String state;
 
 
 
