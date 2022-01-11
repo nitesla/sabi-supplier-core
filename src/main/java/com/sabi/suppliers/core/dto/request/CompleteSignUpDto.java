@@ -31,4 +31,6 @@ public class CompleteSignUpDto {
     private String userPhone;
     private String name;
 
+    private Long supplierId;
+
 }
