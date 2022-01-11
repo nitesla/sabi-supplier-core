@@ -23,6 +23,11 @@ public class ShipmentResponseDto {
     private LocalDateTime expectedDeliveryDate;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
+    private String driverName;
+    private String partnerName;
+    private String partnerId;
+    private String assestName;
+    private String assestId;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
