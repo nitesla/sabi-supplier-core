@@ -42,6 +42,11 @@ public class ShipmentItemInfoResponse {
     private Long shipment_createdBy;
     private Long shipment_updatedBy;
     private Boolean isActive;
+    private String driverName;
+    private String partnerName;
+    private String partnerId;
+    private String assestName;
+    private String assestId;
 
     private Long productId;
     private String productName;
