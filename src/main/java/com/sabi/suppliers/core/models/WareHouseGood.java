@@ -7,6 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 
 @NoArgsConstructor
@@ -22,4 +23,8 @@ public class WareHouseGood extends CoreEntity {
     private int qtyAvaliable;
     private double price;
     private int qty;
+    @Transient
+    private Long variantId;
+    @Transient
+    private String variantName;
 }

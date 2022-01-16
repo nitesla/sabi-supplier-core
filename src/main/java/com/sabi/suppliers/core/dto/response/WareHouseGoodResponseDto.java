@@ -20,5 +20,7 @@ public class WareHouseGoodResponseDto {
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
+    private Long variantId;
+    private String variantName;
     private Boolean isActive;
 }

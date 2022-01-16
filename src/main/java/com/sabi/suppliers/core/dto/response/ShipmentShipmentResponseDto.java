@@ -24,6 +24,7 @@ public class ShipmentShipmentResponseDto {
     private LocalDateTime expectedDeliveryDate;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
+    private String deliveryStatus;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
