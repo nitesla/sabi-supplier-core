@@ -40,7 +40,7 @@ public class WareHouseRequest {
     @NotNull(message = "LGA id is required")
     private Long lgaId;
     @NotNull(message = "Product count is required")
-    private Long productCount;
+    private Integer productCount;
     @NotBlank(message = "Name is required")
     private String name;
 //    @NotNull(message = "Product is required")

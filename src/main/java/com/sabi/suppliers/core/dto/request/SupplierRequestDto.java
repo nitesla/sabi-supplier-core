@@ -28,4 +28,5 @@ public class SupplierRequestDto {
     private String contactPhone;
     private String contactEmail;
     private Double discountProvided;
+    private String deliveryStatus;
 }

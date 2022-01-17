@@ -24,7 +24,7 @@ public class WareHouse extends CoreEntity {
     private String latitude;
     private Long userId;
     private Long lgaId;
-    private Long productCount;
+    private Integer productCount;
     private String name;
 
     @Transient

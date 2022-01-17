@@ -24,7 +24,7 @@ public class WareHouseResponse {
     private String latitude;
     private Long userId;
     private Long lgaId;
-    private Long productCount;
+    private Integer productCount;
     private String name;
     private String stateName;
     private String lgaName;
