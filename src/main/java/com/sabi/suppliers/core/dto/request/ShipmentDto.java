@@ -26,5 +26,6 @@ public class ShipmentDto {
     private String partnerId;
     private String assestName;
     private String assestId;
+    private String feedStatus;
 
 }

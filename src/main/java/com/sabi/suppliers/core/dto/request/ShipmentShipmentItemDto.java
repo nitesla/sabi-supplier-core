@@ -23,6 +23,7 @@ public class ShipmentShipmentItemDto {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private String deliveryStatus;
+    private String feedStatus;
 
     List<ShipmentItemDto> shipmentItemDtoList;
 }

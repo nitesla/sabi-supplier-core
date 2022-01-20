@@ -25,6 +25,7 @@ public class ShipmentShipmentResponseDto {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private String deliveryStatus;
+    private String feedStatus;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
