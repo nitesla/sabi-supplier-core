@@ -21,6 +21,8 @@ public class WareHouseGoodResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Long variantId;
+    private int commitedStock;
+    private int avaliableStock;
     private String variantName;
     private Boolean isActive;
 }

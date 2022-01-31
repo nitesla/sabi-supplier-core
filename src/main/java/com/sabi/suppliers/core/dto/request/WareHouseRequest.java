@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
 @Builder
 public class WareHouseRequest {
     private Long id;
-    @NotNull(message = "Product Id can not be blank")
+//    @NotNull(message = "Product Id can not be blank")
     private Long productId;
     @NotNull(message = "Supplier ID is required")
     private Long supplierId;
@@ -39,7 +39,7 @@ public class WareHouseRequest {
     private Long userId;
     @NotNull(message = "LGA id is required")
     private Long lgaId;
-    @NotNull(message = "Product count is required")
+//    @NotNull(message = "Product count is required")
     private Integer productCount;
     @NotBlank(message = "Name is required")
     private String name;
