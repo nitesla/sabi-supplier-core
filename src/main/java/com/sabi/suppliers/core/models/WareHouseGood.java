@@ -24,7 +24,6 @@ public class WareHouseGood extends CoreEntity {
     private double price;
     private int qty;
     private Integer commitedStock;
-    private Integer avaliableStock;
     private Integer minimumOrderQuantity;
     @Transient
     private Long variantId;
