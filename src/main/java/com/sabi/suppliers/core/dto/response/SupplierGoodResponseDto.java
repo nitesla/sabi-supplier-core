@@ -22,10 +22,13 @@ public class SupplierGoodResponseDto {
     private int totalQuantityAvailable;
     private int quantitySold;
     private int quantity;
+    private Integer committedStock;
+    private Integer minimumOrderQuantity;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
     private String variantName;
+    private String variantPicture;
     private Boolean isActive;
 }

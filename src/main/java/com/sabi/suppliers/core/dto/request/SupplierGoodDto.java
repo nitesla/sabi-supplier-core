@@ -18,4 +18,6 @@ public class SupplierGoodDto {
     private int totalQuantityAvailable;
     private int quantitySold;
     private int quantity;
+    private Integer committedStock;
+    private String minimumOrderQuantity;
 }
