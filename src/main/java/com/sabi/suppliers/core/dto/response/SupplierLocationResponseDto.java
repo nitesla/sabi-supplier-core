@@ -23,6 +23,8 @@ public class SupplierLocationResponseDto {
 
     private Long stateID;
 
+    private int warehouse;
+
     private LocalDateTime createdDate;
 
     private LocalDateTime updatedDate;

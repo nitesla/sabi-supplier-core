@@ -23,4 +23,6 @@ public class SupplierLocationRequestDto {
 
     private Long stateID;
 
+    private int warehouse;
+
 }
