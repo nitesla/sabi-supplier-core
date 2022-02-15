@@ -25,6 +25,8 @@ public class SupplierLocationResponseDto {
 
     private int warehouse;
 
+    private String stateName;
+
     private LocalDateTime createdDate;
 
     private LocalDateTime updatedDate;
