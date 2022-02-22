@@ -33,5 +33,6 @@ public class WareHouseResponse {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private Boolean isDefault;
     private Integer wareHouseUserCount;
 }

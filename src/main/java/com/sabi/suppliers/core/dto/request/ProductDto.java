@@ -7,6 +7,7 @@ public class ProductDto {
 
     private Long id;
     private String name;
+    private double weight;
     private Long manufacturerId;
     private Long productCategoryId;
 }
