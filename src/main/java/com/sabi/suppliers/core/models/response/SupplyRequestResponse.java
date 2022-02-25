@@ -1,20 +1,21 @@
-package com.sabi.suppliers.core.models;
+package com.sabi.suppliers.core.models.response;
 
-import com.sabi.framework.models.CoreEntity;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-@EqualsAndHashCode(callSuper = true)
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Data
-@Entity
-public class SupplyRequest extends CoreEntity {
+public class SupplyRequestResponse {
+    private Long id;
     private Long productId;
     private String productName;
     private Long askingQuantity;
@@ -30,12 +31,16 @@ public class SupplyRequest extends CoreEntity {
     private Date dateAccepted;
     private Long askedQuantity;
     private Long askedPrice;
+    private LocalDateTime createdDate;
+    private LocalDateTime updatedDate;
+    private Long createdBy;
+    private Long updatedBy;
+    private Boolean isActive;
     private LocalDateTime deliveryDate;
     private String deliveryAddress;
     private String email;
     private String phone;
     private String rejectReason;
     private String deliveryStatus;
-    private double productWeight;
-
+    private String productWeight;
 }

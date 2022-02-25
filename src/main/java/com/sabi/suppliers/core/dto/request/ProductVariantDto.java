@@ -11,4 +11,5 @@ public class ProductVariantDto {
     private String picture;
     private Integer rowPerPack;
     private Integer pieceaPerRow;
+    private double price;
 }

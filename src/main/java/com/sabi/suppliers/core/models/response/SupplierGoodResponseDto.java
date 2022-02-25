@@ -1,20 +1,21 @@
-package com.sabi.suppliers.core.models;
+package com.sabi.suppliers.core.models.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sabi.framework.models.CoreEntity;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Transient;
-import java.util.Set;
+import lombok.NoArgsConstructor;
 
-@EqualsAndHashCode(callSuper=false)
+import java.time.LocalDateTime;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Data
-@Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SupplierGood extends CoreEntity {
+public class SupplierGoodResponseDto {
 
+    private Long id;
     private Long supplierId;
     private Long variantId;
     private double price;
@@ -23,10 +24,11 @@ public class SupplierGood extends CoreEntity {
     private int quantity;
     private Integer committedStock;
     private Integer minimumOrderQuantity;
-    @OneToMany(mappedBy="warehouseId")
-    private Set<WarehouseId> warehouseId;
-    @Transient
+    private LocalDateTime createdDate;
+    private LocalDateTime updatedDate;
+    private Long createdBy;
+    private Long updatedBy;
     private String variantName;
-    @Transient
     private String variantPicture;
+    private Boolean isActive;
 }

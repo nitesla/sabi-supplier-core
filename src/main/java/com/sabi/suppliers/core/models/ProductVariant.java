@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
 @Data
@@ -18,4 +19,5 @@ public class ProductVariant extends CoreEntity {
     private String picture;
     private Integer rowPerPack;
     private Integer pieceaPerRow;
+    private double price;
 }

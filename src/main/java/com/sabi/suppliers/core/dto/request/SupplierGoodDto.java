@@ -1,9 +1,12 @@
 package com.sabi.suppliers.core.dto.request;
 
+import com.sabi.suppliers.core.models.Product;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
 @AllArgsConstructor

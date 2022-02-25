@@ -15,4 +15,5 @@ public class Product extends CoreEntity {
     private String name;
     private Long manufacturerId;
     private Long productCategoryId;
+    private double weight;
 }
