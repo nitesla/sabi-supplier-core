@@ -23,8 +23,6 @@ public class SupplierGood extends CoreEntity {
     private int quantity;
     private Integer committedStock;
     private Integer minimumOrderQuantity;
-    @OneToMany(mappedBy="warehouseId")
-    private Set<WarehouseId> warehouseId;
     @Transient
     private String variantName;
     @Transient
