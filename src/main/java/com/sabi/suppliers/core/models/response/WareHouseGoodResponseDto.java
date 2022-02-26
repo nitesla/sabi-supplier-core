@@ -16,6 +16,7 @@ public class WareHouseGoodResponseDto {
     private int qtyAvaliable;
     private double price;
     private int qty;
+    private int availableStock;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

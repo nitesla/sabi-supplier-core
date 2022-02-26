@@ -20,4 +20,9 @@ public class ProductVariant extends CoreEntity {
     private Integer rowPerPack;
     private Integer pieceaPerRow;
     private double price;
+    private double leastPrice;
+    private double maxPrice;
+    @Transient
+    private String productName;
+    private String productCategory;
 }

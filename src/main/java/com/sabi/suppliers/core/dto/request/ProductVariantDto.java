@@ -12,4 +12,6 @@ public class ProductVariantDto {
     private Integer rowPerPack;
     private Integer pieceaPerRow;
     private double price;
+    private double leastPrice;
+    private double maxPrice;
 }

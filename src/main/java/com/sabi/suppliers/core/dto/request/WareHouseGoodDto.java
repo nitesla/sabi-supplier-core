@@ -14,4 +14,5 @@ public class WareHouseGoodDto {
     private Integer commitedStock;
     private Integer minimumOrderQuantity;
     private int qty;
+    private int availableStock;
 }

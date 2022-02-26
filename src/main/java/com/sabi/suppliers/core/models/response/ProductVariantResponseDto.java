@@ -16,6 +16,10 @@ public class ProductVariantResponseDto {
     private Integer rowPerPack;
     private Integer pieceaPerRow;
     private double price;
+    private double leastPrice;
+    private double maxPrice;
+    private String productName;
+    private String productCategory;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
