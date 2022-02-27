@@ -29,6 +29,7 @@ public class ShipmentResponseDto {
     private String assestName;
     private String assestId;
     private String feedStatus;
+    private String shipmentReferenceNumber;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

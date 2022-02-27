@@ -24,6 +24,7 @@ public class ShipmentShipmentItemDto {
     private LocalDateTime endTime;
     private String deliveryStatus;
     private String feedStatus;
+    private String shipmentReferenceNumber;
 
     List<ShipmentItemDto> shipmentItemDtoList;
 }

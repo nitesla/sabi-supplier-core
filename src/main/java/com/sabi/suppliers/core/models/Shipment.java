@@ -31,4 +31,5 @@ public class Shipment extends CoreEntity {
     private String assestName;
     private String assestId;
     private String feedStatus;
+    private String shipmentReferenceNumber;
 }
