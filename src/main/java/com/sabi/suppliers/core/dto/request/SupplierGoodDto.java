@@ -23,4 +23,5 @@ public class SupplierGoodDto {
     private int quantity;
     private Integer committedStock;
     private String minimumOrderQuantity;
+    private int availableLocations;
 }

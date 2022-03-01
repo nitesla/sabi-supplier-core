@@ -23,6 +23,7 @@ public class SupplierGood extends CoreEntity {
     private int quantity;
     private Integer committedStock;
     private Integer minimumOrderQuantity;
+    private int availableLocations;
     @Transient
     private String variantName;
     @Transient

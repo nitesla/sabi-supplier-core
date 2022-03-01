@@ -30,5 +30,6 @@ public class SupplierGoodResponseDto {
     private Long updatedBy;
     private String variantName;
     private String variantPicture;
+    private int availableLocations;
     private Boolean isActive;
 }
