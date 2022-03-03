@@ -28,6 +28,6 @@ public class WareHouseGood extends CoreEntity {
     private int availableStock;
     @Transient
     private Long variantId;
-    @Transient
+//    @Transient
     private String variantName;
 }
