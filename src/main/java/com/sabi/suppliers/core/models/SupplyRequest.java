@@ -37,5 +37,6 @@ public class SupplyRequest extends CoreEntity {
     private String rejectReason;
     private String deliveryStatus;
     private double productWeight;
+    private Long supplierId;
 
 }

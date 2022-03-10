@@ -43,4 +43,5 @@ public class SupplyRequestResponse {
     private String rejectReason;
     private String deliveryStatus;
     private String productWeight;
+    private Long supplierId;
 }
