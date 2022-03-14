@@ -12,4 +12,5 @@ public class DashboardWarehouseResponse {
     private String warehouseName;
     private String productName;
     private BigDecimal price;
+    private String productImage;
 }
