@@ -12,4 +12,5 @@ public class DashboardProductResponse {
     private String name;
     private BigDecimal price;
     private Long productId;
+    private String productImage;
 }
