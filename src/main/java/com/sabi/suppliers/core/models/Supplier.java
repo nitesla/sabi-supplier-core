@@ -40,10 +40,10 @@ public class Supplier extends CoreEntity {
     private double discountProvided;
     private String deliveryType;
 
-    @Transient
+//    @Transient
     private String lga;
 
-    @Transient
+//    @Transient
     private String state;
 
 

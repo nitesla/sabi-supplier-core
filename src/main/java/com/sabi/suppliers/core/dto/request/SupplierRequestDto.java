@@ -29,4 +29,8 @@ public class SupplierRequestDto {
     private String contactEmail;
     private Double discountProvided;
     private String deliveryStatus;
+    private String lgaId;
+    private String lga;
+    private String stateId;
+    private String state;
 }

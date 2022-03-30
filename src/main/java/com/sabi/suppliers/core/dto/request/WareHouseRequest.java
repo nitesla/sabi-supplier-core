@@ -44,6 +44,8 @@ public class WareHouseRequest {
     @NotBlank(message = "Name is required")
     private String name;
     private Boolean isDefault;
+    private String stateName;
+    private String lgaName;
 //    @NotNull(message = "Product is required")
 //    @DecimalMin(value = "0.0", message = "Product cost can not be  less than 0")
 //    private BigDecimal productCost;
