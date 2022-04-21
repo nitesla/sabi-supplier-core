@@ -5,6 +5,7 @@ import lombok.*;
 
 import javax.persistence.Entity;
 import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -38,5 +39,6 @@ public class SupplyRequest extends CoreEntity {
     private String deliveryStatus;
     private double productWeight;
     private Long supplierId;
+    private LocalDateTime expireTime;
 
 }
