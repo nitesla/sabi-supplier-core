@@ -44,4 +44,5 @@ public class SupplyRequestResponse {
     private String deliveryStatus;
     private String productWeight;
     private Long supplierId;
+    private LocalDateTime expireTime;
 }
