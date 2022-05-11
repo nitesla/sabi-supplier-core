@@ -18,7 +18,10 @@ public class ProductResponseDto {
     private Long id;
     private String name;
     private Long manufacturerId;
+    private String manufactureName;
     private Long productCategoryId;
+    private String productCategoryName;
+    private String image;
     private double weight;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;

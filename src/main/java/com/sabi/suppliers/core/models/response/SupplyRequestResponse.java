@@ -45,4 +45,5 @@ public class SupplyRequestResponse {
     private String productWeight;
     private Long supplierId;
     private LocalDateTime expireTime;
+    private String productImage;
 }

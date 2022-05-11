@@ -4,6 +4,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
@@ -40,5 +41,7 @@ public class SupplyRequest extends CoreEntity {
     private double productWeight;
     private Long supplierId;
     private LocalDateTime expireTime;
+    @Transient
+    private String productImage;
 
 }

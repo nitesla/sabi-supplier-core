@@ -9,5 +9,6 @@ public class ProductDto {
     private String name;
     private double weight;
     private Long manufacturerId;
+    private String image;
     private Long productCategoryId;
 }

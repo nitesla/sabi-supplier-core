@@ -27,8 +27,6 @@ public class WareHouse extends CoreEntity {
     private Integer productCount;
     private String name;
     private Boolean isDefault;
-
-    @Transient
     private String stateName;
     @Transient
     private String lgaName;
