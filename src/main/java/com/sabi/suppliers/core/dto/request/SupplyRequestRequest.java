@@ -60,4 +60,5 @@ public class SupplyRequestRequest {
     private String rejectReason;
     private Long supplierId;
     private String productImage;
+    private String unassigned;
 }

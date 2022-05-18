@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
@@ -16,6 +17,7 @@ public class Product extends CoreEntity {
     private String name;
     private Long manufacturerId;
     private Long productCategoryId;
+    @Lob
     private String image;
     private double weight;
     @Transient
