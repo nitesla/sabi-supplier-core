@@ -30,4 +30,6 @@ public class WareHouseGood extends CoreEntity {
     private Long variantId;
 //    @Transient
     private String variantName;
+    @Transient
+    private String warehouseName;
 }

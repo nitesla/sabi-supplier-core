@@ -24,7 +24,7 @@ public class SupplyRequestRequest {
     @NotNull(message = "Product ID is required")
     @Min(value = 1L, message = "Product Id can not be less than 1")
     private Long productId;
-    @NotBlank(message = "Product name is required")
+//    @NotBlank(message = "Product name is required")
     private String productName;
     @NotNull(message = "Asking Quantity is required")
     @Min(message = "Asking quantity can not be less than 1", value = 1L)
@@ -38,7 +38,7 @@ public class SupplyRequestRequest {
     private Date endTime;
     @NotBlank(message = "Reference Number is required")
     private String  referenceNo;
-    @NotBlank(message = "Status is required ")
+//    @NotBlank(message = "Status is required ")
     private String status;
     @NotNull(message = "Quantity is required")
     private Long quantity;

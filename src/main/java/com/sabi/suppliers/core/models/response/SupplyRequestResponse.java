@@ -46,4 +46,5 @@ public class SupplyRequestResponse {
     private Long supplierId;
     private LocalDateTime expireTime;
     private String productImage;
+    private String unassigned;
 }

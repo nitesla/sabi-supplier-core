@@ -26,4 +26,5 @@ public class WareHouseGoodResponseDto {
     private Integer minimumOrderQuantity;
     private String variantName;
     private Boolean isActive;
+    private String warehouseName;
 }
