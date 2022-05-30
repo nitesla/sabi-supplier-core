@@ -45,5 +45,7 @@ public class SupplyRequest extends CoreEntity {
     @Lob
     private String productImage;
     private Boolean unassigned;
+    @Transient
+    private String supplierName;
 
 }
