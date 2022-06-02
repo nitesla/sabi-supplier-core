@@ -52,8 +52,8 @@ public class ShipmentItemInfoResponse {
     private String productName;
     private Long askingQuantity;
     private BigDecimal askingPrice;
-    private Date supplyRequest_startTime;
-    private Date supplyRequest_endTime;
+    private LocalDateTime supplyRequest_startTime;
+    private LocalDateTime supplyRequest_endTime;
     private String  referenceNo;
     private String supplyRequest_status;
     private Long supplyRequest_quantity;

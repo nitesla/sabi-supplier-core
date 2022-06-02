@@ -22,8 +22,8 @@ public class SupplyRequest extends CoreEntity {
     private String productName;
     private Long askingQuantity;
     private BigDecimal askingPrice;
-    private Date startTime;
-    private Date endTime;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
     private String  referenceNo;
     private String status;
     private Long quantity;
@@ -41,7 +41,7 @@ public class SupplyRequest extends CoreEntity {
     private String deliveryStatus;
     private double productWeight;
     private Long supplierId;
-    private LocalDateTime expireTime;
+    private String expiryTime;
     @Lob
     private String productImage;
     private Boolean unassigned;
