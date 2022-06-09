@@ -18,6 +18,9 @@ public class ManufacturerResponseDto {
     private Long id;
     private String name;
     private Long stateID;
+    private String stateName;
+    private Long countryId;
+    private String countryName;
     private String address;
     private String phone;
     private String email;

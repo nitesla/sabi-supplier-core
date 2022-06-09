@@ -14,4 +14,5 @@ public class ProductCategory extends CoreEntity {
 
     @Column(nullable = false)
     private String name;
+    private String description;
 }

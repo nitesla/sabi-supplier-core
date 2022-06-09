@@ -17,6 +17,7 @@ public class ProductCategoryResponseDto {
 
     private Long id;
     private String name;
+    private String description;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
