@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 public class GlobalAdminAuthResponse {
 
     private String token;
+    private Long userId;
 
 }
 

@@ -25,6 +25,9 @@ public class ShipmentShipmentItemDto {
     private String deliveryStatus;
     private String feedStatus;
     private String shipmentReferenceNumber;
-
+//    private String deliveryAddress;
+//    private String email;
+//    private String customerName;
     List<ShipmentItemDto> shipmentItemDtoList;
+    List<ProductCountDto> productCountDtoList;
 }

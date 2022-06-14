@@ -33,4 +33,7 @@ public class Shipment extends CoreEntity {
     private String feedStatus;
     private String shipmentReferenceNumber;
     private String paymentStatus;
+//    private String deliveryAddress;
+//    private String email;
+//    private String customerName;
 }

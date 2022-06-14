@@ -40,6 +40,7 @@ public class SupplyRequestResponse {
     private String deliveryAddress;
     private String email;
     private String phone;
+    private String customerName;
     private String rejectReason;
     private String deliveryStatus;
     private String productWeight;

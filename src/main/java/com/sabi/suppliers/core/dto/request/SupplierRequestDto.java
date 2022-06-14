@@ -22,6 +22,7 @@ public class SupplierRequestDto {
     private String address;
     private String phone;
     private String email;
+    private String customerName;
     private String website;
     private Long supplierCategoryID;
     private String contactPerson;

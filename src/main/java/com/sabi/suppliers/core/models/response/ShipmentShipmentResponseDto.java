@@ -1,6 +1,7 @@
 package com.sabi.suppliers.core.models.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.sabi.suppliers.core.models.ProductCount;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -30,6 +31,9 @@ public class ShipmentShipmentResponseDto {
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
-
+//    private String deliveryAddress;
+//    private String email;
+//    private String customerName;
     List<ShipmentItemResponseDto> shipmentItemResponseDtoList;
+    List<ProductCountResponse> productCountResponseList;
 }

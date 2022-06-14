@@ -1,30 +1,27 @@
 package com.sabi.suppliers.core.models.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class ShipmentItemResponseDto {
+public class ProductCountResponse {
 
     private Long id;
-    private Long supplierRequestId;
     private Long shipmentId;
-    private int quantity;
-    private int acceptedQuality;
-    private BigDecimal price;
-    private String status;
-    private String deliveryAddress;
-    private String email;
-    private String phoneNumber;
-    private String customerName;
-    private LocalDateTime deliveryDate;
+    private Long productId;
+    private String name;
+    private long quantity;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
     private Long updatedBy;
-
 }

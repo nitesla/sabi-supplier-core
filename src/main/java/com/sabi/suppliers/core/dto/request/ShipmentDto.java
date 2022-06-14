@@ -29,5 +29,6 @@ public class ShipmentDto {
     private String feedStatus;
     private String shipmentReferenceNumber;
     private String paymentStatus;
+    private String deliveryAddress;
 
 }

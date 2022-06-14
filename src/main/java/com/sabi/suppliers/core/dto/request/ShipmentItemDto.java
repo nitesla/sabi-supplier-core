@@ -15,5 +15,9 @@ public class ShipmentItemDto {
     private int acceptedQuality;
     private BigDecimal price;
     private String status;
+    private String deliveryAddress;
+    private String email;
+    private String phoneNumber;
+    private String customerName;
     private LocalDateTime deliveryDate;
 }
