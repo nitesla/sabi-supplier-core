@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
 
 /**
  *
@@ -39,6 +38,7 @@ public class Supplier extends CoreEntity {
     private String contactEmail;
     private double discountProvided;
     private String deliveryType;
+    private Long partnerUserId;
 
 //    @Transient
     private String lga;
