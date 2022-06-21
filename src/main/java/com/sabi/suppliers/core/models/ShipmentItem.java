@@ -16,7 +16,7 @@ public class ShipmentItem extends CoreEntity {
     private Long supplierRequestId;
     private Long shipmentId;
     private int quantity;
-    private int acceptedQuality;
+    private int acceptedQuantity;
     private BigDecimal price;
     private String status;
     private String deliveryAddress;

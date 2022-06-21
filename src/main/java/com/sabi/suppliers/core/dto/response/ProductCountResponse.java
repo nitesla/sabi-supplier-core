@@ -20,6 +20,7 @@ public class ProductCountResponse {
     private Long productId;
     private String name;
     private long quantity;
+    private double productWeight;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;

@@ -17,5 +17,6 @@ public class ProductCount extends CoreEntity {
    private Long productId;
    private String name;
    private Long quantity;
+   private double productWeight;
 
 }
