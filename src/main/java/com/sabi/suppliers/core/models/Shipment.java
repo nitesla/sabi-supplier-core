@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class Shipment extends CoreEntity {
 
     private Long warehouseId;
+    private String warehouseAddress;
     private LocalDateTime deliveryDate;
     private String logisticPartnerId;
     private String logisticPartnerName;

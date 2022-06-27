@@ -13,6 +13,7 @@ public class ShipmentShipmentResponseDto {
 
     private Long id;
     private Long warehouseId;
+    private String warehouseAddress;
     private LocalDateTime deliveryDate;
     private String logisticPartnerId;
     private String logisticPartnerName;

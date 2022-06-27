@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -21,6 +22,9 @@ public class SupplyRequestCounterOfferResponseDto {
     private Long userId;
     private BigDecimal price;
     private Integer quantity;
+    private String productName;
+    private BigDecimal askingPrice;
+    private String supplierName;
     private LocalDateTime createdDate;
     private LocalDateTime updatedDate;
     private Long createdBy;
