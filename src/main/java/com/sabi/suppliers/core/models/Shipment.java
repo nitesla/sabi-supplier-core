@@ -1,12 +1,16 @@
 package com.sabi.suppliers.core.models;
 
 import com.sabi.framework.models.CoreEntity;
+import com.sabi.suppliers.core.dto.response.ProductCountResponse;
+import com.sabi.suppliers.core.dto.response.ShipmentItemResponseDto;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @EqualsAndHashCode(callSuper=false)
 @Data
@@ -34,7 +38,9 @@ public class Shipment extends CoreEntity {
     private String feedStatus;
     private String shipmentReferenceNumber;
     private String paymentStatus;
-//    private String deliveryAddress;
-//    private String email;
-//    private String customerName;
+
+    @Transient
+    List<ShipmentItemResponseDto> shipmentItemResponseDtoList;
+    @Transient
+    List<ProductCountResponse> productCountResponseList;
 }
